@@ -22,6 +22,7 @@ app.get('/home/moderators', function (req, res) {
     );
 });
 
+app.set('port', process.env.PORT || 3000);
 app.listen(3000, function () {
     console.log("Listening on port 3000");
 });
