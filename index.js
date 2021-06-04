@@ -9,7 +9,7 @@ app.get('/home', function (req, res) {
     res.send("Hello world!");
 });
 
-// GET api to print results of employee table
+// GET api to print results of lab4DB table
 app.get('/home/moderators', function (req, res) {
     connection.query(
         "USE lab4DB");
